@@ -1,0 +1,16 @@
+<div class="container">
+<h1>We share knowledge with the world</h1>
+<p>Whatever your learning style, we have a course that fits. Coming from instructors all over the world, our courses span over 75 languages and cover just about anything you'd want to know.
+    We help organizations of all types and sizes prepare for the path ahead — wherever it leads. Our curated collection of business and technical courses help companies, governments, and nonprofits go further by placing learning at the center of their strategies.
+    Our instructors are real people who are passionate about sharing what they know with students all over the world.</p>
+<div class="cont">
+    <h1>Our instructors</h1>
+    <div class="instructor" style="display: flex;">
+        <div *ngFor="let instructors of instructor" style="flex: 1; max-width: 500px">
+            <img src="{{instructors.image}}" alt="" width="200px">
+            <h2>{{instructors.name}}</h2>
+            <p>{{instructors.description}}</p>
+            
+        </div>
+</div>
+</div>

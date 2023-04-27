@@ -1,0 +1,22 @@
+<div class="container">
+<h1>Log in</h1>
+<form (submit)="onSubmit()" class="i">
+  <div class="col12">
+    <input [(ngModel)]="email" type="email" name="email" required placeholder="email"/>
+  </div>
+  <div class="col12">
+
+    <input [(ngModel)]="password" type="password" name="password" required placeholder="password"/>
+   </div>
+    <div class="col12">
+
+    <button type="submit">Login</button>
+    <div *ngIf="showSuccessMessage" class="success-message">
+      you successfully registered!    </div>
+    </div>
+  </form>
+
+<h2>not a member? <a routerLink="registration">sign up</a></h2>
+</div>
+
+

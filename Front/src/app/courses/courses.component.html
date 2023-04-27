@@ -1,0 +1,13 @@
+<h1>Our courses</h1>
+<hr>
+<div class="container" style="display: flex;">
+<div *ngFor="let videos of video" style="flex: 1; max-width: 900px">
+    <h2>{{videos.name}}</h2>
+    <a href="{{videos.link}}"><img src="{{videos.image}}" alt="" width="450px"></a>
+    <p>{{videos.description}}</p>
+    <button (click)="clickLike(videos)"><mat-icon id="1">favorite</mat-icon>Like</button> <p>{{videos.likeCount}}</p>
+    <button (click)="clickDislike(videos)"><mat-icon id="2">favorite</mat-icon>Dislike</button> <p>{{videos.dislikeCount}}</p>
+   
+</div>
+</div>
+

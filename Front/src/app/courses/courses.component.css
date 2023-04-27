@@ -1,0 +1,17 @@
+.button{
+    color:#fff;
+    background-color: blue;
+}
+.container{
+    color: black;
+    
+}
+.container button{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    border-color: #003E6D;
+    border-radius: 10px;
+    color:#003E6D;
+    font-weight: medium;
+}

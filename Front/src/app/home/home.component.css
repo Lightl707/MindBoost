@@ -1,0 +1,26 @@
+
+#sect1 {  
+    height: 700px;  
+    background-image: url("../../assets/images/back.jpg");
+    color: #fff;
+    background-size: cover;  
+} 
+.container h2{
+    font-size:25px ;
+    font-weight: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cont{
+    top: 270px;
+    left: 30px;
+    position: relative;}
+.cont button{
+    background-color: #fff;
+    color: #003E6D;
+    font-weight: bolder;
+    top:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    left:20px;
+
+}

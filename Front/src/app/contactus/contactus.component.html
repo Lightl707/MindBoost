@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Contact us</h1>
+    <div class="cont">
+        <form class="example-form">
+            <div class="col12">
+                <input [(ngModel)]="name" type="name" name="name" required  placeholder="Enter first name">
+ </div>
+ <div class="col12">
+    <input [(ngModel)]="last" type="last" name="last" required placeholder="Enter last name">
+</div>
+<div class="col12">
+    <input [(ngModel)]="phonenumber" type="phonenumber" name="phonenumber" required placeholder="Phone number">
+</div>
+<div class="col12">
+    <input [(ngModel)]="que" type="que" name="que" required placeholder="Ask question">
+</div>
+<div class="col12">
+<button (click)="onSubmit()" class="btn">Submit</button>
+<div *ngIf="showSuccessMessage" class="success-message">
+    we will reply soon. Thank you for message!
+ </div>
+</div>
+
+
+          </form>
+          
+          
+    </div>
+</div>

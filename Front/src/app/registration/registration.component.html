@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>sign up</h1>
+<form (submit)="onSubmit()" class="i">
+    <div class="col12">
+    <input [(ngModel)]="email" type="email" name="email" required placeholder="create email" />
+    </div>
+    <div class="col12">
+    <input [(ngModel)]="password" type="password" name="password" required placeholder="create password"/>
+    </div>
+
+    <button type="submit">Register</button>
+    <div *ngIf="showSuccessMessage" class="success-message">
+you successfully registered!    </div>
+</form>
+<h2>have an account? <a mat-button routerLink="login">login</a></h2>
+</div>

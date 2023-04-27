@@ -1,0 +1,21 @@
+.mat-radio-button:active{
+color:blue;
+}
+.btn button{
+    background-color: #003E6D;
+    color:white;
+    margin-top:20px;
+    height: 40px;
+    border-radius: 4px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left:160px;
+}
+.ttestt{
+    margin-top: 40px;
+    margin-left: 370px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+  

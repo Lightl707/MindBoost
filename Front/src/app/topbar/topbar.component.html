@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+
+
+<img src="{{imagePath}}" alt="My Image" width="80">
+<span>Online Course</span>
+<div class="menu"></div>
+<ul><li><a mat-button routerLink="">Home</a></li>
+<li><a mat-button routerLink="aboutus">About us</a></li>
+<button mat-button [matMenuTriggerFor]="belowMenu">Courses</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item routerLink="courses">Courses</button>
+  <button mat-menu-item routerLink="test">Test</button>
+</mat-menu>
+
+<li><a mat-button routerLink="contactus">Contact us</a></li>
+
+<button mat-button [matMenuTriggerFor]="afterMenu">Account</button>
+<mat-menu #afterMenu="matMenu" xPosition="after">
+  <button mat-menu-item routerLink="registration">sign up</button>
+  <button mat-menu-item routerLink="login">login</button>
+</mat-menu>
+</ul>
+
+</mat-toolbar>
+
+    
