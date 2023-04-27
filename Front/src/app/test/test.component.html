@@ -1,0 +1,14 @@
+<div class="ttestt">
+    <div *ngFor="let tests of test; let i = index">
+        <p>{{i+1}}. {{tests.question}}</p>
+        <mat-radio-group *ngFor="let item of tests.options">
+            <mat-radio-button *ngIf="!isTested" (click)="check(item, tests)">{{item}}</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    <div class="btn">
+    <button *ngIf="isChecked" (click)="getGrade()">Check yourself!</button>
+    <button *ngIf="!isChecked" (click)="getGrade()">Try again!</button></div>
+    <p *ngIf="!isChecked">
+        Your grade is {{fullgrade}}
+    </p>
+    </div>

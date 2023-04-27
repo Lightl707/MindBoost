@@ -1,0 +1,30 @@
+.menu{
+    flex:1 1 auto;
+}
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.mat-toolbar{
+    background-color: #003E6D;
+    color:white;
+}
+.ul{
+    background-color: #003E6D;
+}
+/* You can add global styles to this file, and also import other style files */
+ul {
+    list-style: none;
+    overflow: hidden;
+    background-color: #003E6D;
+  }
+  li{float:left}
+  a {
+    text-decoration: none;
+  }
+
+  
+  ul li:hover {
+    background-color: #4D4D4D;
+  }
+ 

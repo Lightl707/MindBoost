@@ -1,0 +1,31 @@
+.container{
+    margin-top:100px;
+    margin-left: 550px;
+
+  }
+  .container h1{
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .example-form input{
+width: 400px;
+height: 40px;
+font-size:14px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.col12{
+    margin-top:12px;
+}
+
+.cont button{
+    background-color: #003E6D;
+    color:white;
+    margin-top:10px;
+    height: 40px;
+    border-radius: 4px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left:160px;
+
+}
